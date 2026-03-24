@@ -8,7 +8,7 @@ plugins {
 coreProject()
 
 dependencies {
-    implementation(project(":ocpp-1-6-core"))
+    api(project(":ocpp-1-6-core"))
     implementation(project(":operation-information"))
 }
 

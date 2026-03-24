@@ -26,7 +26,7 @@ allprojects {
 subprojects {
 
     apply {
-        plugin("java")
+        plugin("java-library")
         plugin("org.jetbrains.kotlin.jvm")
         plugin("maven-publish")
         plugin("signing")
